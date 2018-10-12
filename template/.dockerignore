@@ -7,6 +7,15 @@
 # General
 # =========================
 .git
+./log
+./tmp
+
+# =========================
+# Docker
+# =========================
+.dockerignore
+*Dockerfile*
+*docker-compose*
 
 # =========================
 # IDEs
@@ -22,3 +31,4 @@
 # NPM
 # =========================
 node_modules
+package.lock.json
